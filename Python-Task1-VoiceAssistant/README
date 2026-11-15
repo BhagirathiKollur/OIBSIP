@@ -1,1 +1,42 @@
 
+# 🎙️ Nova - Voice Assistant
+
+Nova is a simple Python-based voice assistant that listens to voice commands and responds using speech.
+
+## Features
+- Voice recognition
+- Responds to greetings
+- Tells current date and time
+- Performs Google searches
+- Opens Google and YouTube
+- Speaks responses using text-to-speech
+
+## Technologies Used
+- Python
+- SpeechRecognition
+- PyAudio
+- pyttsx3
+- datetime
+- webbrowser
+
+## How to Run
+
+1. Clone the repository.
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the program:
+
+```bash
+python voice_assistant.py
+```
+
+## Demo Video
+[https://lnkd.in/dQy9eccj]
+
+## Author
+Bhagirathi Kollur
+
