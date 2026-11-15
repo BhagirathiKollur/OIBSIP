@@ -1,1 +1,109 @@
+# 🧮 BMI Calculator – Python GUI Application
 
+A simple and user-friendly **BMI (Body Mass Index) Calculator** developed using Python. This application calculates BMI based on a user's weight and height, classifies the result into health categories, and stores records for future reference.
+
+This project was developed as part of my **Python Internship at Oasis Infobyte**.
+
+## 🚀 Features
+
+- Calculate BMI using weight and height.
+- Classify BMI into four categories:
+  - Underweight
+  - Normal
+  - Overweight
+  - Obese
+- User-friendly graphical interface using Tkinter.
+- Multi-user support.
+- Store BMI records using SQLite database.
+- View previous BMI history.
+- Visualize BMI trends using Matplotlib.
+- Input validation and error handling.
+
+## 🛠️ Technologies Used
+
+- **Python** – Core programming language
+- **Tkinter** – Graphical User Interface
+- **SQLite** – Database management
+- **Matplotlib** – Data visualization
+- **Datetime** – Date and time management
+
+## 📂 Project Structure
+
+```text
+BMI_Calculator/
+│
+├── bmi_calculator.py
+├── bmi_records.db
+└── README.md
+```
+
+*Note: The database file is automatically created when the application runs for the first time.*
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/BhagirathiKollur/OIBSIP
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd BMI_Calculator
+```
+
+### 3. Install required library
+
+```bash
+pip install matplotlib
+```
+
+### 4. Run the application
+
+```bash
+python bmi_calculator.py
+```
+
+## 📊 BMI Calculation Formula
+
+BMI is calculated using the following formula:
+
+```text
+BMI = Weight (kg) / Height (m)²
+```
+
+### BMI Categories
+
+| BMI Range | Category |
+|---|---|
+| Below 18.5 | Underweight |
+| 18.5 – 24.9 | Normal |
+| 25 – 29.9 | Overweight |
+| 30 and above | Obese |
+
+*BMI is a general screening measure and not a medical diagnosis.*
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Python programming and functions.
+- GUI development using Tkinter.
+- Database operations using SQLite.
+- Data visualization using Matplotlib.
+- Input validation and exception handling.
+
+## 👩‍💻 Developed By
+
+**Bhagirathi Kollur**
+
+Python Developer | Engineering Student
+
+## 🏢 Internship
+
+Developed as part of the **Python Internship at Oasis Infobyte**.
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
